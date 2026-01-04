@@ -147,12 +147,19 @@ This script changes the victim's desktop wallpaper, potentially for intimidation
 
 ## Indicators of Compromise (IOCs)
 
+> **Important Note:** The credentials and infrastructure details listed below belong to the malware operators (attackers). They are intentionally provided in full for:
+> - Security operations center (SOC) detection and blocking
+> - Threat intelligence sharing
+> - Reporting to service providers (Telegram, GitHub)
+> - Law enforcement investigation and prosecution
+> - Creating accurate detection signatures and firewall rules
+
 ### Network Indicators
 
 **Command & Control:**
 - Telegram Bot API: `api.telegram.org`
-- Telegram Bot Token: `8263447327:AAH2UWtHaUU0i_3OmxK7mzmRLTK8MfsWzSk`
-- Telegram Chat ID: `7063407604`
+- Telegram Bot Token: `8263447327:AAH2UWtHaUU0i_3OmxK7mzmRLTK8MfsWzSk` (attacker's infrastructure)
+- Telegram Chat ID: `7063407604` (attacker's chat)
 
 **Malware Distribution:**
 - Repository: `https://github.com/Mafin111/MafinREP111/`

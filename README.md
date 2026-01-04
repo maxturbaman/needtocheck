@@ -51,10 +51,16 @@ All 8 PowerShell scripts follow the same attack pattern:
 
 ## Indicators of Compromise (IOCs)
 
+> **Note:** The credentials listed below belong to the malware operators (attackers), not victims. They are intentionally unredacted for:
+> - Security team detection and blocking
+> - Reporting to Telegram abuse team
+> - Law enforcement investigation
+> - Creating detection signatures
+
 ### Network Indicators
 - **C2 Server:** Telegram Bot API (`api.telegram.org`)
-- **Bot Token:** `8263447327:AAH2UWtHaUU0i_3OmxK7mzmRLTK8MfsWzSk`
-- **Chat ID:** `7063407604`
+- **Bot Token:** `8263447327:AAH2UWtHaUU0i_3OmxK7mzmRLTK8MfsWzSk` (attacker's token)
+- **Chat ID:** `7063407604` (attacker's chat)
 - **Malware Source:** `https://github.com/Mafin111/MafinREP111/`
 
 ### File Indicators
